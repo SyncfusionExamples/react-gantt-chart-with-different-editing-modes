@@ -1,13 +1,57 @@
-# React Gantt chart with different editing modes
+# React Gantt Chart with Different Editing Modes
 
-A quick-start project that helps you to enable editing in React Gantt Chart. This project contains a code snippet to perform cell, dialog, taskbar, and dependency editing in Gantt Charts.
+A React sample project demonstrating Syncfusion's React Gantt chart with editable tasks, add/edit/delete operations, taskbar editing, and task dependency support.
 
-Documentation: https://ej2.syncfusion.com/react/documentation/gantt/managing-tasks/
+## Features
 
-Online examples: https://ej2.syncfusion.com/react/demos/#/material/gantt/editing
+- Syncfusion `@syncfusion/ej2-react-gantt` integration
+- Editable Gantt chart with:
+  - add, edit, delete tasks
+  - taskbar editing
+  - dependencies between tasks
+- Toolbar controls:
+  - Add
+  - Edit
+  - Delete
+  - Update
+  - Cancel
+  - Expand All
+  - Collapse All
 
-## Project prerequisites
-Make sure that you have the latest versions of NodeJS and visual studio code in your machine before starting to work on this project.
+## Project structure
 
-### How to run this application?
-To run this application, you need to clone the `react-gantt-chart-with-different-editing-modes` repository and then open it in Visual Studio Code. Now, simply install all the necessary react packages into your current project using the npm install command and run your project using the npm start command.
+- `src/App.tsx` — renders the Gantt chart and configures editing settings
+- `src/data.js` — sample task data, including subtasks and dependencies
+- `src/index.tsx` — React entry point
+- `package.json` — project dependencies and scripts
+
+## Installation
+
+1. Open the project folder in Visual Studio Code.
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+## Run the app
+
+```bash
+npm start
+```
+
+Open `http://localhost:3000` in your browser.
+
+## Notes
+
+- The Gantt chart uses `taskFields` mapping to bind `TaskID`, `TaskName`, `StartDate`, `EndDate`, `Duration`, `Predeceesor`, and `subtasks`.
+- Sample data includes parent tasks with nested subtasks and a dependency defined as `"2FS"`.
+- The edit mode is configured as `Auto` and `allowTaskbarEditing` is enabled.
+
+## Dependencies
+
+- `react`
+- `react-dom`
+- `react-scripts`
+- `@syncfusion/ej2-react-gantt`
+- `@syncfusion/ej2-data`
