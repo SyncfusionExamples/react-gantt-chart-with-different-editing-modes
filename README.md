@@ -1,6 +1,10 @@
 # React Gantt Chart with Different Editing Modes
 
-A React sample project demonstrating Syncfusion's React Gantt chart with editable tasks, add/edit/delete operations, taskbar editing, and task dependency support.
+A React sample project that demonstrates the Syncfusion React Gantt Chart component with support for editing tasks, taskbar manipulation, and task dependency management in a project scheduling scenario.
+
+## Project Overview
+
+This repository provides a practical example of using the Syncfusion React Gantt Chart to build an interactive project management interface. The sample focuses on configuring built-in editing capabilities and toolbar actions that allow users to manage tasks directly within the Gantt chart
 
 ## Features
 
@@ -18,17 +22,9 @@ A React sample project demonstrating Syncfusion's React Gantt chart with editabl
   - Expand All
   - Collapse All
 
-## Project structure
-
-- `src/App.tsx` — renders the Gantt chart and configures editing settings
-- `src/data.js` — sample task data, including subtasks and dependencies
-- `src/index.tsx` — React entry point
-- `package.json` — project dependencies and scripts
-
 ## Installation
 
-1. Open the project folder in Visual Studio Code.
-2. Install dependencies:
+Install project dependencies using:
 
 ```bash
 npm install
@@ -42,16 +38,12 @@ npm start
 
 Open `http://localhost:3000` in your browser.
 
+## How It Works
+
+The sample renders a `GanttComponent` configured with editing options enabled. Task data is supplied from a local data source and mapped to the Gantt chart using the taskFields property.
+
 ## Notes
 
-- The Gantt chart uses `taskFields` mapping to bind `TaskID`, `TaskName`, `StartDate`, `EndDate`, `Duration`, `Predeceesor`, and `subtasks`.
-- Sample data includes parent tasks with nested subtasks and a dependency defined as `"2FS"`.
-- The edit mode is configured as `Auto` and `allowTaskbarEditing` is enabled.
-
-## Dependencies
-
-- `react`
-- `react-dom`
-- `react-scripts`
-- `@syncfusion/ej2-react-gantt`
-- `@syncfusion/ej2-data`
+- The edit mode is configured as `Auto` to allow inline task updates.
+- Taskbar editing is enabled using the `allowTaskbarEditing` option.
+- Sample data includes parent tasks, nested subtasks, and a basic dependency value such as `2FS`.
