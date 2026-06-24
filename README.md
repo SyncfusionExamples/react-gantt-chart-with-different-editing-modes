@@ -53,5 +53,5 @@ The sample renders a `GanttComponent` configured with editing options enabled. T
 - [Explore React Gantt Chart](https://www.syncfusion.com/react-components/react-gantt-chart)
 - [Gantt Chart Feature Overview](https://ej2.syncfusion.com/react/documentation/gantt/overview)
 - [React Gantt Chart Getting Started Guide](https://ej2.syncfusion.com/react/documentation/gantt/getting-started)
-- [React Gantt API Documentation](https://ej2.syncfusion.com/react/documentation/api/gantt/)
+- [React Gantt API Documentation](https://ej2.syncfusion.com/react/documentation/api/gantt/editmode)
 - [React Gantt Chart Live Demos and Examples](https://ej2.syncfusion.com/react/demos/#/tailwind3/gantt/default-editing)
