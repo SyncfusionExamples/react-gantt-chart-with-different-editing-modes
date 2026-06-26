@@ -1,6 +1,6 @@
 # React Gantt Chart with Different Editing Modes
 
-A React sample project that demonstrates the Syncfusion React Gantt Chart component with support for editing tasks, taskbar manipulation, and task dependency management in a project scheduling scenario.
+A React sample project that demonstrates the [React Gantt Chart](https://www.syncfusion.com/react-components/react-gantt-chart) component with support for editing tasks, taskbar manipulation, and task dependency management in a project scheduling scenario.
 
 ## Project Overview
 
@@ -47,3 +47,11 @@ The sample renders a `GanttComponent` configured with editing options enabled. T
 - The edit mode is configured as `Auto` to allow inline task updates.
 - Taskbar editing is enabled using the `allowTaskbarEditing` option.
 - Sample data includes parent tasks, nested subtasks, and a basic dependency value such as `2FS`.
+
+## Related Links
+
+- [Explore React Gantt Chart](https://www.syncfusion.com/react-components/react-gantt-chart)
+- [Gantt Chart Feature Overview](https://ej2.syncfusion.com/react/documentation/gantt/overview)
+- [React Gantt Chart Getting Started Guide](https://ej2.syncfusion.com/react/documentation/gantt/getting-started)
+- [React Gantt API Documentation](https://ej2.syncfusion.com/react/documentation/api/gantt/editmode)
+- [React Gantt Chart Live Demos and Examples](https://ej2.syncfusion.com/react/demos/#/tailwind3/gantt/default-editing)
